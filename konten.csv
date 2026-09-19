@@ -1,0 +1,7 @@
+KontoID,Bezeichnung,Kategorie
+A10,Personalkosten,Personal
+A20,Materialkosten,Sachkosten
+A30,Marketingkosten,Sachkosten
+A40,Reisekosten,Sachkosten
+A50,IT-Kosten,Sachkosten
+A60,Sonstige Kosten,Sachkosten
