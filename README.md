@@ -14,14 +14,22 @@ Vorgehen
 3. Abweichung absolut und prozentual berechnet
 4. Auf die größten Abweichungen gefiltert und sortiert
 
-Finale Query: [abweichungsanalyse.sql] [abweichungsanalyse.csv]
+Finale Query: [abweichungsanalyse.sql]]abweichungsanalyse.csv]
 
 Ergebnisse
-- K200 (Marketing) / Konto A30: im November und Dezember 60–65 % unter Budget
-- K500 (IT) / Konto A50: im Oktober 110 % über Budget
+- **K200 (Marketing) / Konto A30:** im November und Dezember 60–65 % unter Budget
+- **K500 (IT) / Konto A50:** im Oktober 110 % über Budget
+
+Ursachenanalyse (Beispiel K500/A50, Oktober)
+Aufschlüsselung der Einzelbuchungen zeigt: eine einzelne Position
+("Softwarelizenz", 8.189,41 €) macht rund 79 % der gesamten Überschreitung aus,
+nicht mehrere kleinere Buchungen. Das deutet stärker auf eine einmalige
+Anschaffung als auf einen dauerhaften Kostenanstieg hin.
+Query: [abweichungsanalyse_mögliche_ursache.sql] [abweichungsanalyse_mögliche_ursache.csv]
 
 Mögliche nächste Schritte
-- Für K500/A50 prüfen, ob im Oktober ein Einmalprojekt (z. B. Systemumstellung)
-  die Ursache war, statt eines dauerhaften Kostenanstiegs
+- Für K500/A50 prüfen, ob es sich tatsächlich um eine Einmalanschaffung handelt
+  (z. B. Mehrjahreslizenz im Voraus bezahlt) oder ob monatlich wiederkehrend
+  mit ähnlichen Beträgen zu rechnen ist
 - Für K200/A30 prüfen, ob eine geplante Kampagne ausgefallen ist, oder ob das
   Budget für Q4 grundsätzlich zu hoch angesetzt war
