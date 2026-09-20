@@ -14,7 +14,7 @@ Vorgehen
 3. Abweichung absolut und prozentual berechnet
 4. Auf die größten Abweichungen gefiltert und sortiert
 
-Finale Query: [abweichungsanalyse.sql] [abweichungsanalyse.csv]
+Finale Query: (abweichungsanalyse.sql) (abweichungsanalyse.csv)
 
 Ergebnisse
 - **K200 (Marketing) / Konto A30:** im November und Dezember 60–65 % unter Budget
@@ -25,7 +25,7 @@ Aufschlüsselung der Einzelbuchungen zeigt: eine einzelne Position
 ("Softwarelizenz", 8.189,41 €) macht rund 79 % (78,9 %) der gesamten Überschreitung aus,
 nicht mehrere kleinere Buchungen. Das deutet stärker auf eine einmalige
 Anschaffung als auf einen dauerhaften Kostenanstieg hin.
-Query: [abweichungsanalyse_mögliche_ursache.sql] [abweichungsanalyse_mögliche_ursache.csv]
+Query: (abweichungsanalyse_moegliche_ursache.sql) (abweichungsanalyse_moegliche_ursache.csv)
 
 Mögliche nächste Schritte
 - Für K500/A50 prüfen, ob es sich tatsächlich um eine Einmalanschaffung handelt
