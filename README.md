@@ -14,7 +14,7 @@ Vorgehen
 3. Abweichung absolut und prozentual berechnet
 4. Auf die größten Abweichungen gefiltert und sortiert
 
-Finale Query: [abweichungsanalyse.sql]]abweichungsanalyse.csv]
+Finale Query: [abweichungsanalyse.sql] [abweichungsanalyse.csv]
 
 Ergebnisse
 - **K200 (Marketing) / Konto A30:** im November und Dezember 60–65 % unter Budget
