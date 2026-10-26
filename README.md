@@ -22,9 +22,9 @@ Ergebnisse
 
 Ursachenanalyse (Beispiel K500/A50, Oktober)
 Aufschlüsselung der Einzelbuchungen zeigt: eine einzelne Position
-("Softwarelizenz", 8.189,41 €) macht rund 79 % (78,9 %) der gesamten Überschreitung aus,
-nicht mehrere kleinere Buchungen. Das deutet stärker auf eine einmalige
-Anschaffung als auf einen dauerhaften Kostenanstieg hin.
+("Softwarelizenz", 8.189,41 €) macht 78,9 % der Oktober-Ist-Kosten aus und ist größer als die gesamte Überschreitung (5.436,61 €). 
+Das deutet stärker auf eine einmalige Anschaffung als auf einen dauerhaften Kostenanstieg hin.
+
 Query: abweichungsanalyse_moegliche_ursache.sql abweichungsanalyse_moegliche_ursache.csv
 
 Mögliche nächste Schritte
